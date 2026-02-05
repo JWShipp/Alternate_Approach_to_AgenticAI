@@ -1,0 +1,33 @@
+{
+  "hypotheses": [
+    {
+      "hypothesis_id": "d98f6186-3ce5-4175-a528-5ce779fb9251",
+      "created_utc": "2026-01-30T18:34:17Z",
+      "statement": "In the post-intervention period, sanctions are associated with a decrease in cyber incident volume for the treated unit, conditional on observed covariates.",
+      "treated_country": "RUS",
+      "outcome": "cyber_incidents",
+      "treatment": "sanctions_count",
+      "expected_direction": "decrease",
+      "priors": {
+        "alpha": 0.05
+      },
+      "status": "supported",
+      "notes": "MVP hypothesis for Phase 11 agent demonstration.\nEvidence: DiD ATT=-20.0000, p=4.529e-45, direction=decrease."
+    },
+    {
+      "hypothesis_id": "a8564930-c012-4e1b-9adc-75d741f832d5",
+      "created_utc": "2026-01-30T19:03:01Z",
+      "statement": "In the post-intervention period, sanctions are associated with a decrease in cyber incident volume for the treated unit, conditional on observed covariates.",
+      "treated_country": "RUS",
+      "outcome": "cyber_incidents",
+      "treatment": "sanctions_count",
+      "expected_direction": "decrease",
+      "priors": {
+        "alpha": 0.05
+      },
+      "status": "supported",
+      "notes": "MVP hypothesis for Phase 11 agent demonstration.\nEvidence: DiD ATT=-20.0000, p=4.529e-45, direction=decrease."
+    }
+  ],
+  "notes": []
+}

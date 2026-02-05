@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "d98f6186-3ce5-4175-a528-5ce779fb9251",
+      "type": "hypothesis",
+      "statement": "In the post-intervention period, sanctions are associated with a decrease in cyber incident volume for the treated unit, conditional on observed covariates.",
+      "status": "proposed"
+    },
+    {
+      "id": "RUS"
+    },
+    {
+      "id": "cyber_incidents"
+    },
+    {
+      "id": "sanctions_count"
+    },
+    {
+      "id": "result:d98f6186-3ce5-4175-a528-5ce779fb9251",
+      "type": "result",
+      "did_att": -19.999999999999996,
+      "did_p": 4.528766459776699e-45,
+      "status": "supported",
+      "intervention_month": "2023-04"
+    },
+    {
+      "id": "phase8_rigor"
+    },
+    {
+      "id": "a8564930-c012-4e1b-9adc-75d741f832d5",
+      "type": "hypothesis",
+      "statement": "In the post-intervention period, sanctions are associated with a decrease in cyber incident volume for the treated unit, conditional on observed covariates.",
+      "status": "proposed"
+    },
+    {
+      "id": "result:a8564930-c012-4e1b-9adc-75d741f832d5",
+      "type": "result",
+      "did_att": -19.999999999999996,
+      "did_p": 4.528766459776699e-45,
+      "status": "supported",
+      "intervention_month": "2023-04"
+    }
+  ],
+  "edges": [
+    {
+      "src": "d98f6186-3ce5-4175-a528-5ce779fb9251",
+      "dst": "RUS",
+      "rel": "ABOUT",
+      "meta": {
+        "type": "country"
+      }
+    },
+    {
+      "src": "d98f6186-3ce5-4175-a528-5ce779fb9251",
+      "dst": "cyber_incidents",
+      "rel": "OUTCOME",
+      "meta": {
+        "type": "variable"
+      }
+    },
+    {
+      "src": "d98f6186-3ce5-4175-a528-5ce779fb9251",
+      "dst": "sanctions_count",
+      "rel": "TREATMENT",
+      "meta": {
+        "type": "variable"
+      }
+    },
+    {
+      "src": "d98f6186-3ce5-4175-a528-5ce779fb9251",
+      "dst": "phase8_rigor",
+      "rel": "TESTED_BY",
+      "meta": {
+        "phase": "8"
+      }
+    },
+    {
+      "src": "d98f6186-3ce5-4175-a528-5ce779fb9251",
+      "dst": "result:d98f6186-3ce5-4175-a528-5ce779fb9251",
+      "rel": "YIELDS",
+      "meta": {
+        "method": "DiD"
+      }
+    },
+    {
+      "src": "a8564930-c012-4e1b-9adc-75d741f832d5",
+      "dst": "RUS",
+      "rel": "ABOUT",
+      "meta": {
+        "type": "country"
+      }
+    },
+    {
+      "src": "a8564930-c012-4e1b-9adc-75d741f832d5",
+      "dst": "cyber_incidents",
+      "rel": "OUTCOME",
+      "meta": {
+        "type": "variable"
+      }
+    },
+    {
+      "src": "a8564930-c012-4e1b-9adc-75d741f832d5",
+      "dst": "sanctions_count",
+      "rel": "TREATMENT",
+      "meta": {
+        "type": "variable"
+      }
+    },
+    {
+      "src": "a8564930-c012-4e1b-9adc-75d741f832d5",
+      "dst": "phase8_rigor",
+      "rel": "TESTED_BY",
+      "meta": {
+        "phase": "8"
+      }
+    },
+    {
+      "src": "a8564930-c012-4e1b-9adc-75d741f832d5",
+      "dst": "result:a8564930-c012-4e1b-9adc-75d741f832d5",
+      "rel": "YIELDS",
+      "meta": {
+        "method": "DiD"
+      }
+    }
+  ]
+}

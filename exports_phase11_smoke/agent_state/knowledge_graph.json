@@ -1,0 +1,72 @@
+{
+  "nodes": [
+    {
+      "id": "85ce536e-dd93-4915-805a-b6a40a1e5d47",
+      "type": "hypothesis",
+      "statement": "Sanctions are associated with a decrease in cyber incidents for the treated unit post-intervention.",
+      "status": "proposed"
+    },
+    {
+      "id": "RUS"
+    },
+    {
+      "id": "cyber_incidents"
+    },
+    {
+      "id": "sanctions_count"
+    },
+    {
+      "id": "result:85ce536e-dd93-4915-805a-b6a40a1e5d47",
+      "type": "result",
+      "did_att": -19.999999999999993,
+      "did_p": 3.988524259860024e-46,
+      "status": "supported",
+      "intervention_month": "2023-04"
+    },
+    {
+      "id": "phase8_rigor"
+    }
+  ],
+  "edges": [
+    {
+      "src": "85ce536e-dd93-4915-805a-b6a40a1e5d47",
+      "dst": "RUS",
+      "rel": "ABOUT",
+      "meta": {
+        "type": "country"
+      }
+    },
+    {
+      "src": "85ce536e-dd93-4915-805a-b6a40a1e5d47",
+      "dst": "cyber_incidents",
+      "rel": "OUTCOME",
+      "meta": {
+        "type": "variable"
+      }
+    },
+    {
+      "src": "85ce536e-dd93-4915-805a-b6a40a1e5d47",
+      "dst": "sanctions_count",
+      "rel": "TREATMENT",
+      "meta": {
+        "type": "variable"
+      }
+    },
+    {
+      "src": "85ce536e-dd93-4915-805a-b6a40a1e5d47",
+      "dst": "phase8_rigor",
+      "rel": "TESTED_BY",
+      "meta": {
+        "phase": "8"
+      }
+    },
+    {
+      "src": "85ce536e-dd93-4915-805a-b6a40a1e5d47",
+      "dst": "result:85ce536e-dd93-4915-805a-b6a40a1e5d47",
+      "rel": "YIELDS",
+      "meta": {
+        "method": "DiD"
+      }
+    }
+  ]
+}

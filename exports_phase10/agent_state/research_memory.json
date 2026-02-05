@@ -1,0 +1,33 @@
+{
+  "hypotheses": [
+    {
+      "hypothesis_id": "2cb09932-2ff3-4958-98c1-13a92b146548",
+      "created_utc": "2026-01-30T18:38:51Z",
+      "statement": "Sanctions are associated with a decrease in cyber incidents for the treated unit in the post-intervention period.",
+      "treated_country": "RUS",
+      "outcome": "cyber_incidents",
+      "treatment": "sanctions_count",
+      "expected_direction": "decrease",
+      "priors": {
+        "alpha": 0.05
+      },
+      "status": "proposed",
+      "notes": "Created via Phase 10 UI (Phase 11 agent)."
+    },
+    {
+      "hypothesis_id": "308136ab-63c8-43d3-b259-988dde801982",
+      "created_utc": "2026-01-30T18:38:52Z",
+      "statement": "Sanctions are associated with a decrease in cyber incidents for the treated unit in the post-intervention period.",
+      "treated_country": "RUS",
+      "outcome": "cyber_incidents",
+      "treatment": "sanctions_count",
+      "expected_direction": "decrease",
+      "priors": {
+        "alpha": 0.05
+      },
+      "status": "proposed",
+      "notes": "Created via Phase 10 UI (Phase 11 agent)."
+    }
+  ],
+  "notes": []
+}

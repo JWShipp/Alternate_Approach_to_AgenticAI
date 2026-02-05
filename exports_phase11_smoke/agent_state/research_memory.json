@@ -1,0 +1,19 @@
+{
+  "hypotheses": [
+    {
+      "hypothesis_id": "85ce536e-dd93-4915-805a-b6a40a1e5d47",
+      "created_utc": "2026-01-30T18:11:33Z",
+      "statement": "Sanctions are associated with a decrease in cyber incidents for the treated unit post-intervention.",
+      "treated_country": "RUS",
+      "outcome": "cyber_incidents",
+      "treatment": "sanctions_count",
+      "expected_direction": "decrease",
+      "priors": {
+        "alpha": 0.05
+      },
+      "status": "supported",
+      "notes": "Evidence: DiD ATT=-20.0000, p=3.989e-46, direction=decrease."
+    }
+  ],
+  "notes": []
+}

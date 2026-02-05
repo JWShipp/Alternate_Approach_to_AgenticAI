@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "2cb09932-2ff3-4958-98c1-13a92b146548",
+      "type": "hypothesis",
+      "statement": "Sanctions are associated with a decrease in cyber incidents for the treated unit in the post-intervention period.",
+      "status": "proposed"
+    },
+    {
+      "id": "RUS"
+    },
+    {
+      "id": "cyber_incidents"
+    },
+    {
+      "id": "sanctions_count"
+    },
+    {
+      "id": "308136ab-63c8-43d3-b259-988dde801982",
+      "type": "hypothesis",
+      "statement": "Sanctions are associated with a decrease in cyber incidents for the treated unit in the post-intervention period.",
+      "status": "proposed"
+    }
+  ],
+  "edges": [
+    {
+      "src": "2cb09932-2ff3-4958-98c1-13a92b146548",
+      "dst": "RUS",
+      "rel": "ABOUT",
+      "meta": {
+        "type": "country"
+      }
+    },
+    {
+      "src": "2cb09932-2ff3-4958-98c1-13a92b146548",
+      "dst": "cyber_incidents",
+      "rel": "OUTCOME",
+      "meta": {
+        "type": "variable"
+      }
+    },
+    {
+      "src": "2cb09932-2ff3-4958-98c1-13a92b146548",
+      "dst": "sanctions_count",
+      "rel": "TREATMENT",
+      "meta": {
+        "type": "variable"
+      }
+    },
+    {
+      "src": "308136ab-63c8-43d3-b259-988dde801982",
+      "dst": "RUS",
+      "rel": "ABOUT",
+      "meta": {
+        "type": "country"
+      }
+    },
+    {
+      "src": "308136ab-63c8-43d3-b259-988dde801982",
+      "dst": "cyber_incidents",
+      "rel": "OUTCOME",
+      "meta": {
+        "type": "variable"
+      }
+    },
+    {
+      "src": "308136ab-63c8-43d3-b259-988dde801982",
+      "dst": "sanctions_count",
+      "rel": "TREATMENT",
+      "meta": {
+        "type": "variable"
+      }
+    }
+  ]
+}

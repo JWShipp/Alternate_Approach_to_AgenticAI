@@ -1,0 +1,15 @@
+QUICKSTART (Final Integrated System)
+
+1) Create and activate a virtual environment:
+   python -m venv .venv
+   (Windows) .\.venv\Scripts\Activate.ps1
+   (macOS/Linux) source .venv/bin/activate
+
+2) Install dependencies:
+   pip install -r requirements.txt
+
+3) Run end-to-end demo (agent included):
+   python run_demo_phase11.py
+
+4) Launch UI:
+   streamlit run app_phase10_streamlit.py

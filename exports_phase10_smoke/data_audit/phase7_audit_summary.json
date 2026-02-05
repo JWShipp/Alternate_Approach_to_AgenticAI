@@ -1,0 +1,30 @@
+{
+  "fingerprint":{
+    "icews_sha256":"903d349686deeefc7824b1b6f273721b8bc0f6e3d372bb46815d41a2839ec1d8",
+    "eurepoc_sha256":"48ee7798eba62da62e6751c4e2f7e0cee8114b4480b0b485e2f3de2a6f56343f",
+    "sanctions_sha256":"ff87dab6cf7e58f37889ff80541906353d21474fb9c3fc80cf301af17d68febe"
+  },
+  "version_dir":"\/mnt\/data\/research_assistant_ai_mvp_phase10\/exports_phase10_smoke\/datasets\/20260130T180614Z",
+  "audit_dir":"\/mnt\/data\/research_assistant_ai_mvp_phase10\/exports_phase10_smoke\/data_audit",
+  "panel_shape":[
+    28,
+    8
+  ],
+  "months_min":"2023-01",
+  "months_max":"2023-07",
+  "countries_n":4,
+  "checks":[
+    {
+      "check":"nonnegative_outcome",
+      "passed":true
+    },
+    {
+      "check":"nonnegative_treatment",
+      "passed":true
+    },
+    {
+      "check":"country_iso3_len",
+      "passed":true
+    }
+  ]
+}

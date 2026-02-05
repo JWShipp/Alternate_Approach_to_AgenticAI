@@ -1,0 +1,6 @@
+metric,p_value,lag,coef,aic,bic,n,spec_name,spec_unit_of_analysis,spec_model_family,spec_max_lag,spec_covariates,spec_fixed_effects,q_value_bh
+0.04263152369838025,0.26640100520682697,12,-0.04263152369838025,90.10636678187713,-31.203244591289675,24,CM_Pois_FE,country-month,poisson,12,"['unrest_intensity', 'internet_users_pct', 'gdp_current_usd']",True,
+0.042117386798171855,0.4996960715703812,12,-0.042117386798171855,112.34910229791828,-35.70198392502401,24,CM_NB_FE,country-month,negbin,12,"['unrest_intensity', 'internet_users_pct', 'gdp_current_usd']",True,
+0.029750770974966895,0.23817123278236807,3,-0.029750770974966895,72.0645763044431,-18.11338730418676,16,CQ_Pois_FE,country-quarter,poisson,4,"['unrest_intensity', 'internet_users_pct', 'gdp_current_usd']",True,
+0.0027054425441582104,0.8224247522923914,1,-0.0027054425441582104,76.04538296778338,-46.67962702335234,19,GLOB_Pois,global-month,poisson,12,['unrest_intensity'],False,
+0.001,,0,0.001,inf,inf,72,CM_ZIP_FE,country-month,zip,6,"['unrest_intensity', 'internet_users_pct', 'gdp_current_usd']",True,

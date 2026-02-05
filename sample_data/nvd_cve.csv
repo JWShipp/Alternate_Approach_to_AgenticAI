@@ -1,0 +1,161 @@
+cve_id,published_date,cvss_base_score,description,exploited_observed
+CVE-2024-1000,2024-01-01,5.501838917161539,Authentication bypass in API gateway component.,0
+CVE-2024-1001,2024-01-03,5.327928161051074,Privilege escalation due to improper access control in kernel module.,1
+CVE-2024-1002,2024-01-05,8.15007617401642,SQL injection vulnerability in web application login module.,0
+CVE-2024-1003,2024-01-07,5.139098406029153,Cross-site scripting in user profile page.,0
+CVE-2024-1004,2024-01-09,7.469768632996565,Cross-site scripting in user profile page.,1
+CVE-2024-1005,2024-01-11,6.517817367909345,Cross-site scripting in user profile page.,0
+CVE-2024-1006,2024-01-13,6.29776638707488,Authentication bypass in API gateway component.,0
+CVE-2024-1007,2024-01-15,9.1279027604143,Privilege escalation due to improper access control in kernel module.,1
+CVE-2024-1008,2024-01-17,6.771586398617766,SQL injection vulnerability in web application login module.,0
+CVE-2024-1009,2024-01-19,8.622658900731127,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1010,2024-01-21,7.933900031890128,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1011,2024-01-23,3.262189273201189,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1012,2024-01-25,8.25714835703685,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1013,2024-01-27,4.474717700619077,Cross-site scripting in user profile page.,1
+CVE-2024-1014,2024-01-29,9.141417598590687,SQL injection vulnerability in web application login module.,0
+CVE-2024-1015,2024-01-31,3.2918844961400575,Authentication bypass in API gateway component.,1
+CVE-2024-1016,2024-02-02,5.264889834425368,Cross-site scripting in user profile page.,0
+CVE-2024-1017,2024-02-04,3.678184041196327,Authentication bypass in API gateway component.,0
+CVE-2024-1018,2024-02-06,6.234005996176938,Cross-site scripting in user profile page.,1
+CVE-2024-1019,2024-02-08,8.576152563914313,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1020,2024-02-10,5.027674045708836,Cross-site scripting in user profile page.,0
+CVE-2024-1021,2024-02-12,4.026357301715083,Buffer overflow in network service allows remote code execution.,1
+CVE-2024-1022,2024-02-14,5.2458158427389145,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1023,2024-02-16,8.534384965060326,SQL injection vulnerability in web application login module.,0
+CVE-2024-1024,2024-02-18,3.954610913035559,SQL injection vulnerability in web application login module.,0
+CVE-2024-1025,2024-02-20,4.546064653727012,Authentication bypass in API gateway component.,0
+CVE-2024-1026,2024-02-22,3.468193358554943,Authentication bypass in API gateway component.,0
+CVE-2024-1027,2024-02-24,7.798828299129333,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1028,2024-02-26,5.68758605604709,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1029,2024-02-28,5.113711844574549,Authentication bypass in API gateway component.,0
+CVE-2024-1030,2024-03-01,7.886659454319834,SQL injection vulnerability in web application login module.,0
+CVE-2024-1031,2024-03-03,5.284647287913735,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1032,2024-03-05,7.948844657858043,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1033,2024-03-07,8.543355888137333,SQL injection vulnerability in web application login module.,0
+CVE-2024-1034,2024-03-09,4.4801073355126215,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1035,2024-03-11,9.621967138552687,Privilege escalation due to improper access control in kernel module.,1
+CVE-2024-1036,2024-03-13,4.104034045806134,SQL injection vulnerability in web application login module.,0
+CVE-2024-1037,2024-03-15,4.977718165265849,Authentication bypass in API gateway component.,0
+CVE-2024-1038,2024-03-17,4.222607977668083,SQL injection vulnerability in web application login module.,0
+CVE-2024-1039,2024-03-19,5.349438463223075,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1040,2024-03-21,6.2644140371811385,Buffer overflow in network service allows remote code execution.,1
+CVE-2024-1041,2024-03-23,6.55079590921441,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1042,2024-03-25,8.80452108761465,Cross-site scripting in user profile page.,0
+CVE-2024-1043,2024-03-27,9.048245779947894,Authentication bypass in API gateway component.,0
+CVE-2024-1044,2024-03-29,4.496706253310164,Cross-site scripting in user profile page.,0
+CVE-2024-1045,2024-03-31,7.235679418863117,Privilege escalation due to improper access control in kernel module.,1
+CVE-2024-1046,2024-04-02,3.758173189631266,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1047,2024-04-04,6.120995049238065,SQL injection vulnerability in web application login module.,0
+CVE-2024-1048,2024-04-06,5.191868058717004,SQL injection vulnerability in web application login module.,0
+CVE-2024-1049,2024-04-08,5.152205069084523,Cross-site scripting in user profile page.,0
+CVE-2024-1050,2024-04-10,6.281572843642287,SQL injection vulnerability in web application login module.,0
+CVE-2024-1051,2024-04-12,7.96282792159902,SQL injection vulnerability in web application login module.,0
+CVE-2024-1052,2024-04-14,3.4704420797882487,Cross-site scripting in user profile page.,0
+CVE-2024-1053,2024-04-16,8.978378696274351,SQL injection vulnerability in web application login module.,0
+CVE-2024-1054,2024-04-18,7.996733667487816,Cross-site scripting in user profile page.,0
+CVE-2024-1055,2024-04-20,4.200195844445609,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1056,2024-04-22,9.38629418179412,Cross-site scripting in user profile page.,0
+CVE-2024-1057,2024-04-24,6.4429231233590425,SQL injection vulnerability in web application login module.,0
+CVE-2024-1058,2024-04-26,9.798698331195364,Authentication bypass in API gateway component.,1
+CVE-2024-1059,2024-04-28,4.3413644252450165,Authentication bypass in API gateway component.,0
+CVE-2024-1060,2024-04-30,6.63737574900577,Cross-site scripting in user profile page.,1
+CVE-2024-1061,2024-05-02,4.973686689407513,Authentication bypass in API gateway component.,0
+CVE-2024-1062,2024-05-04,5.068380190246877,Authentication bypass in API gateway component.,1
+CVE-2024-1063,2024-05-06,7.019244589671134,SQL injection vulnerability in web application login module.,0
+CVE-2024-1064,2024-05-08,9.267689654721668,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1065,2024-05-10,8.47579421793839,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1066,2024-05-12,7.922801509809016,SQL injection vulnerability in web application login module.,0
+CVE-2024-1067,2024-05-14,6.802381718291576,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1068,2024-05-16,9.271629824938646,Cross-site scripting in user profile page.,0
+CVE-2024-1069,2024-05-18,6.348057565498012,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1070,2024-05-20,8.942058812676084,Authentication bypass in API gateway component.,1
+CVE-2024-1071,2024-05-22,8.671075178361097,SQL injection vulnerability in web application login module.,0
+CVE-2024-1072,2024-05-24,4.454080358250788,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1073,2024-05-26,8.24433314816819,Authentication bypass in API gateway component.,0
+CVE-2024-1074,2024-05-28,3.0827638672141595,Authentication bypass in API gateway component.,0
+CVE-2024-1075,2024-05-30,5.195240855326995,Cross-site scripting in user profile page.,0
+CVE-2024-1076,2024-06-01,4.561058623905259,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1077,2024-06-03,6.446668117713732,Cross-site scripting in user profile page.,0
+CVE-2024-1078,2024-06-05,8.010601499429342,SQL injection vulnerability in web application login module.,0
+CVE-2024-1079,2024-06-07,3.664199298644524,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1080,2024-06-09,6.501470973170026,SQL injection vulnerability in web application login module.,0
+CVE-2024-1081,2024-06-11,9.381201747521823,Buffer overflow in network service allows remote code execution.,1
+CVE-2024-1082,2024-06-13,4.554796546684029,Authentication bypass in API gateway component.,0
+CVE-2024-1083,2024-06-15,7.604559779957684,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1084,2024-06-17,7.0315858413118715,SQL injection vulnerability in web application login module.,0
+CVE-2024-1085,2024-06-19,3.0684331304614347,Cross-site scripting in user profile page.,0
+CVE-2024-1086,2024-06-21,6.235618131829115,Authentication bypass in API gateway component.,0
+CVE-2024-1087,2024-06-23,7.819638658399131,Authentication bypass in API gateway component.,0
+CVE-2024-1088,2024-06-25,3.2990329377638163,Privilege escalation due to improper access control in kernel module.,1
+CVE-2024-1089,2024-06-27,8.980746084561366,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1090,2024-06-29,6.536553633122578,SQL injection vulnerability in web application login module.,0
+CVE-2024-1091,2024-07-01,3.208495128614882,SQL injection vulnerability in web application login module.,0
+CVE-2024-1092,2024-07-03,4.526012561061713,SQL injection vulnerability in web application login module.,0
+CVE-2024-1093,2024-07-05,9.48499473570573,SQL injection vulnerability in web application login module.,0
+CVE-2024-1094,2024-07-07,6.959774184753977,Cross-site scripting in user profile page.,0
+CVE-2024-1095,2024-07-09,3.730813460827871,SQL injection vulnerability in web application login module.,1
+CVE-2024-1096,2024-07-11,4.955302615507819,Cross-site scripting in user profile page.,0
+CVE-2024-1097,2024-07-13,6.105584655851293,Cross-site scripting in user profile page.,0
+CVE-2024-1098,2024-07-15,3.1424604710205672,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1099,2024-07-17,5.798985492573561,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1100,2024-07-19,6.328318720955948,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1101,2024-07-21,4.657009551912379,SQL injection vulnerability in web application login module.,1
+CVE-2024-1102,2024-07-23,7.002745201985509,Cross-site scripting in user profile page.,0
+CVE-2024-1103,2024-07-25,8.122032813226802,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1104,2024-07-27,4.603672723918321,SQL injection vulnerability in web application login module.,0
+CVE-2024-1105,2024-07-29,7.219399321903917,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1106,2024-07-31,7.349431252153443,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1107,2024-08-02,9.45007404767612,Buffer overflow in network service allows remote code execution.,1
+CVE-2024-1108,2024-08-04,8.292277937615818,Cross-site scripting in user profile page.,0
+CVE-2024-1109,2024-08-06,8.768747834572041,Cross-site scripting in user profile page.,0
+CVE-2024-1110,2024-08-08,6.334855377366671,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1111,2024-08-10,4.260370391459803,SQL injection vulnerability in web application login module.,0
+CVE-2024-1112,2024-08-12,9.771543992125519,Cross-site scripting in user profile page.,0
+CVE-2024-1113,2024-08-14,3.8796191750631577,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1114,2024-08-16,6.205909771609004,Cross-site scripting in user profile page.,0
+CVE-2024-1115,2024-08-18,3.463033074846325,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1116,2024-08-20,9.418185829985575,SQL injection vulnerability in web application login module.,0
+CVE-2024-1117,2024-08-22,9.561489597769391,Privilege escalation due to improper access control in kernel module.,1
+CVE-2024-1118,2024-08-24,7.891845621627021,SQL injection vulnerability in web application login module.,1
+CVE-2024-1119,2024-08-26,5.379951336685149,SQL injection vulnerability in web application login module.,0
+CVE-2024-1120,2024-08-28,4.729800327599846,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1121,2024-08-30,4.8040626068519225,SQL injection vulnerability in web application login module.,0
+CVE-2024-1122,2024-09-01,3.8655993728565083,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1123,2024-09-03,6.575500880921716,Cross-site scripting in user profile page.,0
+CVE-2024-1124,2024-09-05,3.964357474770047,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1125,2024-09-07,5.153768532563503,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1126,2024-09-09,7.261604036521914,SQL injection vulnerability in web application login module.,0
+CVE-2024-1127,2024-09-11,7.9472965452171,SQL injection vulnerability in web application login module.,1
+CVE-2024-1128,2024-09-13,3.1650543914300164,SQL injection vulnerability in web application login module.,1
+CVE-2024-1129,2024-09-15,5.9247886937618315,Authentication bypass in API gateway component.,0
+CVE-2024-1130,2024-09-17,7.434447244926546,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1131,2024-09-19,8.802072637877888,SQL injection vulnerability in web application login module.,0
+CVE-2024-1132,2024-09-21,6.23220851904216,Authentication bypass in API gateway component.,0
+CVE-2024-1133,2024-09-23,9.59059992768026,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1134,2024-09-25,4.806301323281842,Privilege escalation due to improper access control in kernel module.,1
+CVE-2024-1135,2024-09-27,3.0918592050616884,Authentication bypass in API gateway component.,1
+CVE-2024-1136,2024-09-29,6.289519479971807,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1137,2024-10-01,4.741573806136122,Cross-site scripting in user profile page.,0
+CVE-2024-1138,2024-10-03,8.601280169757551,Cross-site scripting in user profile page.,0
+CVE-2024-1139,2024-10-05,4.582854170831562,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1140,2024-10-07,5.1122786843808825,Authentication bypass in API gateway component.,0
+CVE-2024-1141,2024-10-09,8.380346530929964,Authentication bypass in API gateway component.,0
+CVE-2024-1142,2024-10-11,7.862974113772449,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1143,2024-10-13,6.794748409269386,Cross-site scripting in user profile page.,1
+CVE-2024-1144,2024-10-15,7.793646821074765,Cross-site scripting in user profile page.,1
+CVE-2024-1145,2024-10-17,5.8467306722761805,SQL injection vulnerability in web application login module.,0
+CVE-2024-1146,2024-10-19,3.0361083237797413,Authentication bypass in API gateway component.,1
+CVE-2024-1147,2024-10-21,3.0772148738829093,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1148,2024-10-23,6.476308155501069,Cross-site scripting in user profile page.,0
+CVE-2024-1149,2024-10-25,3.566378662089195,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1150,2024-10-27,3.3473132651509463,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1151,2024-10-29,9.565513146134819,SQL injection vulnerability in web application login module.,0
+CVE-2024-1152,2024-10-31,8.8412179496748,Cross-site scripting in user profile page.,0
+CVE-2024-1153,2024-11-02,4.033785145025073,Privilege escalation due to improper access control in kernel module.,0
+CVE-2024-1154,2024-11-04,3.0045166864133908,Cross-site scripting in user profile page.,0
+CVE-2024-1155,2024-11-06,9.403341008650344,SQL injection vulnerability in web application login module.,0
+CVE-2024-1156,2024-11-08,4.892612028576778,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1157,2024-11-10,4.264103699417383,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1158,2024-11-12,7.7022551332544404,Buffer overflow in network service allows remote code execution.,0
+CVE-2024-1159,2024-11-14,3.7405454241210183,Privilege escalation due to improper access control in kernel module.,0

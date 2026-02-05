@@ -1,0 +1,313 @@
+{
+  "dissertation_signals": {
+    "documents": [
+      {
+        "path": "/mnt/data/Dissertation_Concept_3_Template_Matched.docx",
+        "title": "AI-Driven Prediction of Vulnerability Exploitation and Enterprise Exposure Using Exploit Prediction, Dependency Update Behavior, and Telemetry-Based Confirmation Signals:",
+        "research_questions": [
+          "Research Questions\t3",
+          "Research Questions"
+        ],
+        "keywords": [
+          "2024",
+          "exposure",
+          "vulnerability",
+          "enterprise",
+          "charmanas",
+          "2023",
+          "dependency",
+          "prediction",
+          "exploit",
+          "update",
+          "javanmardi",
+          "exploitation",
+          "vulnerabilities",
+          "2025",
+          "signals",
+          "using",
+          "telemetry",
+          "data",
+          "based",
+          "confirmation",
+          "behavior",
+          "analysis",
+          "security",
+          "remediation",
+          "severity",
+          "prioritization",
+          "mohamed",
+          "study",
+          "aboudaoud",
+          "model",
+          "https",
+          "operational",
+          "time",
+          "research",
+          "exploited"
+        ]
+      },
+      {
+        "path": "/mnt/data/ShippJTIM7211_8.docx",
+        "title": "Geopolitical Unrest Leading Indicators and Politically Relevant Cyber Incident Activity:",
+        "research_questions": [
+          "Research Questions\t3",
+          "The purpose of this study is to use a quantitative correlational panel design to evaluate whether country-month geopolitical unrest leading indicators are associated with, and provide statistically testable warnings for country-month politically relevant cyber incident activity (Cameron & Trivedi, 2013; Wooldridge, 2010). This study addresses the stated problem and research questions by constructing reproducible unrest indicators from open, news-derived event data (GDELT Project, n.d.). Politically relevant cyber incidents are aggregated into country-month counts, and contemporaneous and lagged relationships are estimated using panel count methods suited to time-indexed, cross-national outcomes (Cameron & Trivedi, 2013; EuRepoC, 2025; Wooldridge, 2010). The unit of analysis is the country-month, and the target population is sovereign states with sufficient coverage across datasets during the overlapping observation window after harmonization and missing-data handling procedures (EuRepoC, 2025; GDELT Project, n.d.; Wooldridge, 2010). Geopolitical unrest will be operationalized as country-month leading indicators derived from GDELT events (e.g., unrest-category counts and intensity-weighted variants), and politically relevant cyber incident activity will be operationalized as country-month counts derived from EuRepoC target-country coding and timing fields (EuRepoC, 2025; GDELT Project, n.d.). Covariates include Individuals using the Internet (% of population) (World Bank indicator IT.NET.USER.ZS) and Gross Domestic Product (GDP) (current United States Dollars (US$)) (World Bank indicator NY.GDP.MKTP.CD) to improve comparability and reduce confounding in cross-national models (World Bank, n.d.). The study site is global because the research uses publicly available secondary datasets; no permissions beyond licensing and attribution are required (EuRepoC, 2025; GDELT Project, n.d.; World Bank, n.d.).",
+          "Research Questions"
+        ],
+        "keywords": [
+          "country",
+          "cyber",
+          "month",
+          "2024",
+          "unrest",
+          "data",
+          "2025",
+          "incident",
+          "gdelt",
+          "indicators",
+          "https",
+          "relevant",
+          "bank",
+          "politically",
+          "project",
+          "eurepoc",
+          "world",
+          "geopolitical",
+          "activity",
+          "2010",
+          "leading",
+          "counts",
+          "wooldridge",
+          "time",
+          "using",
+          "panel",
+          "research",
+          "incidents",
+          "event",
+          "covariates",
+          "analysis",
+          "study",
+          "statistics",
+          "cameron",
+          "trivedi"
+        ]
+      }
+    ]
+  },
+  "top_experiments": [
+    {
+      "name": "UnrestCount\u2192Cyber | lag=12",
+      "metric": 0.04263152369838025,
+      "p_value": 0.26640100520682697,
+      "model_type": "PoissonGLM_lag12",
+      "notes": {
+        "coef": -0.04263152369838025,
+        "n": 24
+      }
+    },
+    {
+      "name": "UnrestCount\u2192Cyber | lag=7",
+      "metric": 0.037398685647778776,
+      "p_value": 0.2321503165373786,
+      "model_type": "PoissonGLM_lag7",
+      "notes": {
+        "coef": -0.037398685647778776,
+        "n": 44
+      }
+    },
+    {
+      "name": "UnrestCount\u2192Cyber | lag=10",
+      "metric": 0.03225994270416906,
+      "p_value": 0.22295283231173402,
+      "model_type": "PoissonGLM_lag10",
+      "notes": {
+        "coef": 0.03225994270416906,
+        "n": 32
+      }
+    },
+    {
+      "name": "UnrestCount\u2192Cyber | lag=6",
+      "metric": 0.026232744027396653,
+      "p_value": 0.3390770481715827,
+      "model_type": "PoissonGLM_lag6",
+      "notes": {
+        "coef": -0.026232744027396653,
+        "n": 48
+      }
+    },
+    {
+      "name": "UnrestCount\u2192Cyber | lag=2",
+      "metric": 0.023044783440764535,
+      "p_value": 0.42310982291100974,
+      "model_type": "PoissonGLM_lag2",
+      "notes": {
+        "coef": 0.023044783440764535,
+        "n": 64
+      }
+    },
+    {
+      "name": "UnrestCount\u2192Cyber | lag=3",
+      "metric": 0.019071980686291744,
+      "p_value": 0.5150810732366182,
+      "model_type": "PoissonGLM_lag3",
+      "notes": {
+        "coef": -0.019071980686291744,
+        "n": 60
+      }
+    },
+    {
+      "name": "UnrestCount\u2192Cyber | lag=5",
+      "metric": 0.016609420090207848,
+      "p_value": 0.5443773838552302,
+      "model_type": "PoissonGLM_lag5",
+      "notes": {
+        "coef": -0.016609420090207848,
+        "n": 52
+      }
+    },
+    {
+      "name": "UnrestCount\u2192Cyber | lag=1",
+      "metric": 0.007785223390749521,
+      "p_value": 0.7894703634295265,
+      "model_type": "PoissonGLM_lag1",
+      "notes": {
+        "coef": 0.007785223390749521,
+        "n": 68
+      }
+    },
+    {
+      "name": "UnrestCount\u2192Cyber | lag=9",
+      "metric": 0.006373758942601006,
+      "p_value": 0.8119886116409337,
+      "model_type": "PoissonGLM_lag9",
+      "notes": {
+        "coef": 0.006373758942601006,
+        "n": 36
+      }
+    },
+    {
+      "name": "UnrestCount\u2192Cyber | lag=4",
+      "metric": 0.003527123020749534,
+      "p_value": 0.8904063690800134,
+      "model_type": "PoissonGLM_lag4",
+      "notes": {
+        "coef": 0.003527123020749534,
+        "n": 56
+      }
+    }
+  ],
+  "vuln_model": {
+    "auc": 0.4675324675324675,
+    "top_decile_precision": 0.25,
+    "model_info": {
+      "n_train": 120,
+      "n_test": 40,
+      "num_features": [
+        "cvss_base_score",
+        "dep_update_delay_days",
+        "scanner_confirmed_present",
+        "telemetry_exploit_signal",
+        "sbom_present"
+      ],
+      "text_features": "tfidf(1-2grams,5000)"
+    }
+  },
+  "geopolitics_model": {
+    "model": "PoissonGLM",
+    "top_params": [
+      [
+        "C(month_fe)[T.2024-03]",
+        0.8741246267419923
+      ],
+      [
+        "C(month_fe)[T.2023-10]",
+        0.5008225200985179
+      ],
+      [
+        "C(month_fe)[T.2023-11]",
+        0.5008219256337411
+      ],
+      [
+        "C(month_fe)[T.2024-05]",
+        0.49967749945435636
+      ],
+      [
+        "C(month_fe)[T.2024-06]",
+        0.48586921370539227
+      ],
+      [
+        "C(month_fe)[T.2024-02]",
+        0.43843893053931077
+      ],
+      [
+        "C(month_fe)[T.2024-08]",
+        0.438438192601336
+      ],
+      [
+        "C(month_fe)[T.2023-03]",
+        0.34085622540604166
+      ]
+    ],
+    "causal_scaffolding": {
+      "its_demo": {
+        "intervention_month": "2023-11",
+        "level_change": -0.03961954844697435,
+        "slope_change": -0.22170928265987908,
+        "p_level": 0.9247754272988093,
+        "p_slope": 0.06500150385966523,
+        "summary": {
+          "n": 20,
+          "r2": 0.27729313925003085,
+          "aic": 30.073751329136208,
+          "bic": 36.04814497046016
+        }
+      },
+      "rdd_demo": {
+        "error": "Not enough observations in bandwidth to fit RDD."
+      }
+    }
+  },
+  "next_actions": {
+    "chosen_action": "PatchNow",
+    "scored_actions": [
+      {
+        "action": "PatchNow",
+        "expected_risk": 0.162500000000675,
+        "expected_uncertainty": 0.4437922953464478,
+        "expected_free_energy": 0.34001691813925417
+      },
+      {
+        "action": "Investigate",
+        "expected_risk": 0.23750000000052518,
+        "expected_uncertainty": 0.5481810556897022,
+        "expected_free_energy": 0.4567724222764061
+      },
+      {
+        "action": "Defer",
+        "expected_risk": 0.32500000000035,
+        "expected_uncertainty": 0.6305810283860147,
+        "expected_free_energy": 0.5772324113547559
+      }
+    ]
+  },
+  "verification": {
+    "artifact": {
+      "exploit_probability": 0.25,
+      "enterprise_exposure_probability": 0.125,
+      "recommended_action": "PatchNow"
+    },
+    "checks": [
+      {
+        "name": "prob_bounds(exploit_probability)",
+        "passed": true,
+        "message": "exploit_probability=0.25 is within [0,1]"
+      },
+      {
+        "name": "prob_bounds(enterprise_exposure_probability)",
+        "passed": true,
+        "message": "enterprise_exposure_probability=0.125 is within [0,1]"
+      }
+    ],
+    "passed_all": true
+  }
+}

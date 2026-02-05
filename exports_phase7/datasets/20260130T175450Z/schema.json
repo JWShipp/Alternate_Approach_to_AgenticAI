@@ -1,0 +1,11 @@
+{
+  "icews_date_col":"event_date",
+  "icews_country_col":"country_iso3",
+  "icews_intensity_col":"intensity",
+  "eurepoc_date_col":"incident_date",
+  "eurepoc_country_col":"target_country_iso3",
+  "eurepoc_severity_col":"severity",
+  "sanctions_date_col":"sanction_date",
+  "sanctions_country_col":"country_iso3",
+  "sanctions_intensity_col":"intensity"
+}
